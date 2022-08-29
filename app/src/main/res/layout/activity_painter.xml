@@ -14,7 +14,8 @@
         <ImageView
             android:id="@+id/painter_image_view"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"/>
     </FrameLayout>
 
 
@@ -35,16 +36,8 @@
     <Button
         android:id="@+id/add_text_button"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:text="Add Text"/>
-
-    <com.google.android.material.slider.Slider
-        android:id="@+id/stroke_width_slider"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:valueFrom="0"
-        android:valueTo="20"/>
-
-
 
 </LinearLayout>
